@@ -1,0 +1,110 @@
+
+/*This is the style sheet for the home page */
+
+body{
+	background-repeat: no-repeat;
+	background-image: url('photos/kakui.jpg');
+	background-size: cover;
+	/* Question for Zach: how do I make the image cover the entire site even with the browser at a smaller width?*/
+}
+
+a{
+	text-decoration: none;
+	color: #64002C;
+}
+
+#link2 a{
+	color: #DC721C;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+ul{
+	padding-left: 0px;
+}
+
+#home{
+	color: #2A2A2A;
+}
+
+#name{
+	margin-top: 10px;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 3.5em;
+	max-width: 440px;
+}
+
+#title{
+	font-family: 'Herr Von Muellerhoff', cursive;
+	max-width: 230px;
+	top: 0;
+	margin-top: -35px;
+}
+
+#subtitle{
+	margin: 0px;
+	letter-spacing: -2px;
+	font-family: 'Catull';
+}
+
+.red{
+	color: #D50F25;
+}
+
+.blue{
+	color: #3369E8;
+}
+
+.yellow{
+	color: #EEB211;
+}
+
+.green{
+	color: #009925;
+}
+
+.box{
+	background-color: white;
+	opacity: 0.7;
+	border-radius: 10px;
+}
+
+.box2{
+	background-color: #2A313C;
+	border-radius: 10px;
+	color: lightgrey;
+}
+
+/* Question for Zach: how do I make the box opaque without making the text opaque?*/
+
+#bio{
+	float: left;
+	width: 400px;
+	margin-top: 350px;
+}
+
+#bio li{
+	display: block;
+}
+
+#navigate{
+	float: right;
+	margin-top: -40px;
+}
+
+#navigate ul{
+	max-width: 100px;
+}
+
+#navigate li{
+	display: block;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0;
+	width: 450px;
+	opacity: 0.1;
+}

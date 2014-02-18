@@ -1,0 +1,181 @@
+body{
+	background-color: #800080;
+}
+
+.text{
+	color: olive;
+	background-color: white;
+	opacity: 0.8;
+	max-width: 670px;
+	border-radius: 10px;
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+#photo-text{
+	color: olive;
+	background-color: white;
+	opacity: 0.8;
+	max-width: 350px;
+	border-radius: 10px;
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+/* This affects the photos on both sites */
+
+img{
+	margin: 20px;
+	width: 300px;
+	border-style: solid;
+	border-color: grey;
+	position: relative;
+}
+
+/* This is for the photos on the video game site */
+#clash img{
+	position: absolute;
+}
+
+#kart img{
+	position: absolute;
+	margin-left: 350px;
+}
+
+#wow img{
+	position: absolute;
+	margin-left: 680px;
+}
+
+#ocarina img{
+	position: absolute;
+	margin-top: 300px;
+}
+
+#starcraft img{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 350px;
+}
+
+#sims img{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 680px;
+}
+
+#diablo img{
+	position: absolute;
+	margin-top: 700px;
+}
+
+#guild img{
+	position: absolute;
+	margin-top: 700px;
+	margin-left: 350px;
+}
+
+#runescape img{
+	position: absolute;
+	margin-top: 700px;
+	margin-left: 680px;
+}
+
+/* This is for the photos on the photography site */
+#sunset img{
+	position: absolute;
+}
+
+#invasion img{
+	position: absolute;
+	margin-left: 350px;
+}
+
+#gettysburg img{
+	position: absolute;
+	margin-left: 680px;
+}
+
+#rhino img{
+	position: absolute;
+	margin-top: 300px;
+}
+
+#girl img{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 350px;
+}
+
+#lady img{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 680px;
+}
+
+#cod img{
+	position: absolute;
+	margin-top: 700px;
+}
+
+#apple img{
+	position: absolute;
+	margin-top: 700px;
+	margin-left: 350px;
+}
+
+#football img{
+	position: absolute;
+	margin-top: 700px;
+	margin-left: 680px;
+}
+
+/* This affects the navigation bar */
+a{
+	text-decoration: none;
+	color: #DC721C;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+ul{
+	padding-left: 0px;
+}
+
+#navigate{
+	float: right;
+	margin-top: -40px;
+}
+
+#navigate ul{
+	max-width: 100px;
+}
+
+#navigate li{
+	display: block;
+}
+
+.box2{
+	background-color: white;
+	border-radius: 10px;
+	color: olive;
+	opacity: 0.8;
+}
+
+/* This affects the footer */
+
+#footer{
+	position: absolute;
+	width: 450px;
+	bottom: 0;
+	opacity: 1;
+	margin-bottom: -450px;
+}
+
+.box{
+	background-color: white;
+	opacity: 0.1;
+	border-radius: 10px;
+}
